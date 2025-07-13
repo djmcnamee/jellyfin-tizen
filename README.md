@@ -55,6 +55,7 @@ If any changes are made to `jellyfin-web/`, the `jellyfin-web/dist/` directory w
 ### Prepare Interface
 
 ```sh
+cd
 cd jellyfin-tizen
 JELLYFIN_WEB_DIR=../jellyfin-web/dist npm ci --no-audit
 ```
